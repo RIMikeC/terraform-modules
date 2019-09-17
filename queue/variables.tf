@@ -3,3 +3,7 @@ variable "queue_name" {
   type        = "string"
   default     = "dummy"
 }
+variable "aws_region" {
+  description = "Region in which to build"
+  type        = "string"
+}
